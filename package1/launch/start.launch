@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+    <node pkg="package1" type="nodeA.py" name="nodeA" output="screen"/>
+    <node pkg="package2" type="nodeB.py" name="nodeB" output="screen"/>
+</launch>
